@@ -11,8 +11,8 @@ with open("README.md", "r") as fs:
 __author__ = "David Barroso <dbarrosop@dravetech.com>"
 
 setup(
-    name="napalm",
-    version="3.3.1",
+    name="napalm-fork",
+    version="3.3.1b1",
     packages=find_packages(exclude=("test*",)),
     test_suite="test_base",
     author="David Barroso, Kirk Byers, Mircea Ulinic",
