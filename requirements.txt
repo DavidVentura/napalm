@@ -7,7 +7,7 @@ textfsm
 jinja2
 netaddr
 pyYAML
-pyeapi @ git+https://github.com/arista-eosplus/pyeapi.git@85fc4cbde215#egg=pyeapi
+pyeapi-fork==0.8.4rc2
 netmiko>=3.3.0,<4.0.0
 junos-eznc>=2.2.1
 ciscoconfparse
