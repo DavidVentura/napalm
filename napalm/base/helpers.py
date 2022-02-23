@@ -4,7 +4,10 @@ import logging
 
 # std libs
 import os
-import re
+try:
+    import regex as re
+except ModuleNotFoundError:
+    import re
 import sys
 from typing import Optional, Dict, Any, List, Union, Tuple, TypeVar, Callable
 from collections.abc import Iterable
