@@ -2,10 +2,7 @@
 Load tables/views
 """
 import yaml
-try:
-    import regex as re
-except ModuleNotFoundError:
-    import re
+import re
 from jnpr.junos.factory import FactoryLoader
 from os.path import splitext
 

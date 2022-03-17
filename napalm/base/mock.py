@@ -20,10 +20,7 @@ import napalm.base.exceptions
 import inspect
 import json
 import os
-try:
-    import regex as re
-except ModuleNotFoundError:
-    import re
+import re
 
 
 from pydoc import locate

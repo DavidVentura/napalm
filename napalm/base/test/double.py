@@ -1,9 +1,6 @@
 """Base class for Test doubles."""
 import json
-try:
-    import regex as re
-except ModuleNotFoundError:
-    import re
+import re
 import os
 import sys
 

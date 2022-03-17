@@ -19,10 +19,7 @@
 from __future__ import unicode_literals
 
 # import stdlib
-try:
-    import regex as re
-except ModuleNotFoundError:
-    import re
+import re
 import copy
 import difflib
 import logging

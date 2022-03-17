@@ -1,8 +1,5 @@
 """Some functions to work with EOS version numbers"""
-try:
-    import regex as re
-except ModuleNotFoundError:
-    import re
+import re
 
 
 class EOSVersion:

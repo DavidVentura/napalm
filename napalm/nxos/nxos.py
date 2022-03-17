@@ -15,10 +15,7 @@
 
 import json
 import os
-try:
-    import regex as re
-except ModuleNotFoundError:
-    import re
+import re
 import tempfile
 import time
 import uuid

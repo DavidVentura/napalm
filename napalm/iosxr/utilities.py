@@ -1,7 +1,4 @@
-try:
-    import regex as re
-except ModuleNotFoundError:
-    import re
+import re
 
 
 def strip_config_header(config):

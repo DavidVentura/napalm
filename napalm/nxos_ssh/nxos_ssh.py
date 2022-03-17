@@ -15,10 +15,7 @@
 
 # import stdlib
 from builtins import super
-try:
-    import regex as re
-except ModuleNotFoundError:
-    import re
+import re
 import socket
 
 # import third party lib

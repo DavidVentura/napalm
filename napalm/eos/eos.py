@@ -19,10 +19,7 @@ Read napalm.readthedocs.org for more information.
 """
 
 # std libs
-try:
-    import regex as re
-except ModuleNotFoundError:
-    import re
+import re
 import time
 import inspect
 

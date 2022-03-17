@@ -17,10 +17,7 @@
 import unittest
 from napalm.ios import ios
 from napalm.base.test.base import TestConfigNetworkDriver, TestGettersNetworkDriver
-try:
-    import regex as re
-except ModuleNotFoundError:
-    import re
+import re
 
 
 class TestConfigIOSDriver(unittest.TestCase, TestConfigNetworkDriver):

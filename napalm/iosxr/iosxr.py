@@ -14,10 +14,7 @@
 # the License.
 
 # import stdlib
-try:
-    import regex as re
-except ModuleNotFoundError:
-    import re
+import re
 import copy
 from collections import defaultdict
 import logging

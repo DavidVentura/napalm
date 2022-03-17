@@ -1,8 +1,5 @@
 """ Common methods to normalize a string """
-try:
-    import regex as re
-except ModuleNotFoundError:
-    import re
+import re
 from typing import Union, List, Iterable, Dict, Optional
 
 
